@@ -1,0 +1,23 @@
+# Secrets and API keys
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Private logs
+security_logs.csv
+*.log
+
+# Dataset files - temporarily excluded
+*.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
